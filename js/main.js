@@ -209,7 +209,7 @@ function activatePlate_3 (active) {
             event.stopImmediatePropagation()
             const inputElement = this.querySelector('input')
 
-            console.log(this)
+            
 
             this.classList.toggle('checkbox-block--active')
 
@@ -346,7 +346,7 @@ function activatePlate_5 (active) {
     const buttonResults= document.querySelector('#getResults')
   
 
-    console.log(buttonResults)
+    
 
     if (active) {
         buttonResults.addEventListener('click', getResult)
@@ -368,7 +368,7 @@ function activatePlate_5 (active) {
             data[3] = emailValue
             activPlate(6)
         }
-        console.log(email.value)
+        
     }
 
 
